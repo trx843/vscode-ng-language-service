@@ -165,25 +165,13 @@
         "path": "./syntaxes/template.json",
         "scopeName": "template.ng",
         "injectTo": [
-          "text.html.derivative",
-          "source.ts"
-        ],
-        "embeddedLanguages": {
-          "text.html": "html",
-          "source.css": "css"
-        }
+          "text.html.derivative"
+        ]
       },
       {
         "path": "./syntaxes/template-blocks.json",
         "scopeName": "template.blocks.ng",
-        "injectTo": [
-          "text.html.derivative",
-          "source.ts"
-        ],
-        "embeddedLanguages": {
-          "text.html": "html",
-          "source.js": "javascript"
-        }
+        "injectTo": ["text.html.derivative"]
       },
       {
         "path": "./syntaxes/expression.json",

@@ -37,7 +37,9 @@ export const InlineTemplate: GrammarDefinition = {
       end: /\1/,
       endCaptures: {0: {name: 'string'}},
       contentName: 'text.html',
-      patterns: [{include: 'text.html.derivative'}, {include: 'template.ng'}]
+      patterns: [
+        {include: 'text.html.derivative'}, {include: 'template.ng'}, {include: 'template.blocks.ng'}
+      ]
     }
   }
 };
