@@ -170,7 +170,8 @@
         ],
         "embeddedLanguages": {
           "text.html": "html",
-          "source.css": "css"
+          "source.css": "css",
+          "expression.ng": "javascript"
         }
       },
       {
@@ -182,7 +183,8 @@
         ],
         "embeddedLanguages": {
           "text.html": "html",
-          "expression.ng": "javascript"
+          "control.block.expression.ng": "javascript",
+          "control.block.body.ng": "html"
         }
       },
       {
